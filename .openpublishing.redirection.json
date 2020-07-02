@@ -1,0 +1,8 @@
+{
+  "redirections": [
+    {
+      "source_path": "archiveTargetFolder/index.md",
+      "redirect_url": "/DocsE2EArchiveSource/index"
+    }
+  ]
+}

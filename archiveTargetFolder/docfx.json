@@ -1,12 +1,50 @@
 {
   "build": {
     "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md"
+        ],
+        "src": ".",
+        "dest": "."
+      }
     ],
     "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ]
+      }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "breadcrumb_path": "/DocsE2EArchiveTarget/breadcrumb/E2EArchiveTarget_09815a14-58d4-4e1f-876e-d9319f5ef704/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None",
+      "docs_archive": "tool"
     },
     "fileMetadata": {},
     "template": [],
